@@ -13,7 +13,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div className='App'>
       <Header name={blogInfo.name} />
       <About image={blogInfo.image} about={blogInfo.about} />
       <ArticleList posts={blogInfo.posts} />
